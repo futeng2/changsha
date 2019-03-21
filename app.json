@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/jingdian/jingdian",
+    "pages/meishi/meishi",
+    "pages/xiaowu/xiaowu",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#494949",
+    "navigationBarTitleText": "长沙旅游民宿",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/jingdian/jingdian",
+      "text": "景点",
+      "iconPath": "pages/image/tabbar/jingdian1.png",
+      "selectedIconPath": "pages/image/tabbar/jingdian.png"
+    },
+    {
+      "pagePath": "pages/meishi/meishi",
+      "text": "美食",
+      "iconPath": "pages/image/tabbar/meishi1.png",
+      "selectedIconPath": "pages/image/tabbar/meishi2.png"
+    },
+    {
+      "pagePath": "pages/xiaowu/xiaowu",
+      "text": "小屋",
+      "iconPath": "pages/image/tabbar/xiaowu1.png",
+      "selectedIconPath": "pages/image/tabbar/xiaowu2.png"
+    }
+    ]
+  }
+}
